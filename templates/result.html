@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Heart Disease Detection Website</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename = 'style.css')}}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Home Page</h1>
+      <div class="nav">
+        <ul>
+          <li><a href="/frontpage">Home</a></li>
+          <li>
+            <a href="/heart">Heart Disease Prediction</a>
+          </li>
+          <li>
+            <a href="/liver">Liver Disease Prediction</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="resultclass">{{resultvalue}}</div>
+   <section class="footer1">
+      <p>Copy right @ Labsan Ghimire (*********)</p>
+      <div class="icons">
+        <a href="">Github</a>
+        <a
+          href=" "
+          >Youtube</a
+        >
+        <a href=" "
+          >Linked In</a
+        >
+      </div>
+    </section>
+  </body>
+</html>

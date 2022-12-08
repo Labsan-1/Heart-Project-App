@@ -1,0 +1,1 @@
+web: gunicorn loveson.backend --log-file- 
