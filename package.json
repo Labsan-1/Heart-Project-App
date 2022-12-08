@@ -1,0 +1,36 @@
+
+{
+  "name": "Heart-Project-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Labsan-1/Heart-Project-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Labsan-1/Heart-Project-App.gitissues"
+  },
+  "homepage": "https://github.com/Labsan-1/Heart-Project-App.git#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
